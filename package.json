@@ -1,0 +1,29 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "This program was created so the user can quickly create a professional README for a new project. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanglero4/Readme-Generator.git"
+  },
+  "keywords": [
+    "npm",
+    "init",
+    "install",
+    "node",
+    "inquirer"
+  ],
+  "author": "Tiffany Anglero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanglero4/Readme-Generator/issues"
+  },
+  "homepage": "https://github.com/tanglero4/Readme-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
