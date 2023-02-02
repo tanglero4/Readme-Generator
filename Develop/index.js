@@ -68,7 +68,7 @@ let userQuestions = [
  function init() {
 inquirer.prompt(userQuestions)
     .then(function (inquirerAnswers) {
-    console.log(inquirerAnswers)
+   //  Creates a Readme file and replaces the information when another one is being made
     fs.writeFileSync("README.md", generateMarkdown(inquirerAnswers));
     (err) =>
     err ? console.log(err) : console.log("Successful");
