@@ -1,4 +1,4 @@
-# tghrrtghf
+# Readme Generator
  ## License
 ![alt](https://img.shields.io/badge/License--blue)
           
@@ -12,19 +12,19 @@
 - [Email](#Email)
 - [Github](#Github)
 ## Description
-rthg
+This project asks the user questions and creates a Readme for the user.
 ## Usage
-rth
+Create a professional Readme
 ## Contributing
-rt
+Tiffany Anglero
 ## Installation
-srtgh
+No installation needed
 ## Tests
-rth
+run node index.js
 ## Questions 
-rth
+no
 Please contact me using the following links:
 ## Email
-[Email: rth](mailto:rth)
+[Email: tiffanyanglero94@hotmail.com](mailto:tiffanyanglero94@hotmail.com)
 ## Github
-[GitHub](https://github.com/rth)    
+[GitHub](https://github.com/https://github.com/tanglero4?tab=repositories)    
