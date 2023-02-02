@@ -3,7 +3,7 @@ const inquirer = require("inquirer")
 const generateMarkdown = require("./utils/generateMarkdown")
 const fs = require("fs")
 // TODO: Create an array of questions for user input
-let questions = [
+let userQuestions = [
     {
     type: "input",
     message: "Project title?",
@@ -17,7 +17,7 @@ let questions = [
    {
     type: "input",
     message: "Table of Contents.",
-    name: "table-of-contents",
+    name: "Table of Content",
    },
    {
     type: "input",
@@ -66,7 +66,13 @@ let questions = [
 
 // Initialize app function
  function init() {
-
+inquirer.prompt(userQuestions)
+    .then(function (inquirerAnswers) {
+    console.log(inquirerAnswers)
+    fs.writeFileSync("README.md", generateMarkdown(inquirerAnswers));
+    (err) =>
+    err ? console.log(err) : console.log("Successful");
+ });
 };
 
 // Call to initialize app
