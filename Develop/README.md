@@ -1,6 +1,6 @@
 # Readme Generator
  ## License
-![alt](https://img.shields.io/badge/License--blue)
+![Dislpays the selected badge and the corresponding badge color](https://img.shields.io/badge/License--blue)
           
 ## Table of Content 
 - [Project Description](#Description)
@@ -9,22 +9,17 @@
 - [Installation](#Installation)
 - [Tests](#Tests)
 - [Questions](#Questions)
-- [Email](#Email)
-- [Github](#Github)
 ## Description
-This project asks the user questions and creates a Readme for the user.
+Create a professional read me
 ## Usage
-Create a professional Readme
+Creating a redme
 ## Contributing
-Tiffany Anglero
+Tiffany
 ## Installation
-No installation needed
-## Tests
-run node index.js
-## Questions 
+
+## Tests 
 no
-Please contact me using the following links:
-## Email
-[Email: tiffanyanglero94@hotmail.com](mailto:tiffanyanglero94@hotmail.com)
-## Github
-[GitHub](https://github.com/https://github.com/tanglero4?tab=repositories)    
+## Questions
+Contact
+Github : toihdsf 
+Email: noname@gmail.com  

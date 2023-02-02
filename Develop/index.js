@@ -16,7 +16,7 @@ let userQuestions = [
    },
    {
     type: "input",
-    message: "Table of Contents.",
+    message: "(Press Enter)",
     name: "Table of Content",
    },
    {
@@ -44,11 +44,6 @@ let userQuestions = [
     type: "input",
     message: "Do you have any test instructions?",
     name: "testInstructions",
-   },
-   {
-    type: "input",
-    message: "Have questions?",
-    name: "questions",
    },
       {
     type: "input",

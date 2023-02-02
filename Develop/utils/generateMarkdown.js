@@ -1,7 +1,7 @@
 // Returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  return `![alt](https://img.shields.io/badge/License-${license}-blue)`
+  return `![Dislpays the selected badge and the corresponding badge color](https://img.shields.io/badge/License-${license}-blue)`
 }
 
 // Returns the license link
@@ -29,8 +29,6 @@ ${renderLicenseBadge(data.license)}
 - [Installation](#Installation)
 - [Tests](#Tests)
 - [Questions](#Questions)
-- [Email](#Email)
-- [Github](#Github)
 ## Description
 ${data.description}
 ## Usage
@@ -39,15 +37,13 @@ ${data.usage}
 ${data.contributors}
 ## Installation
 ${data.installation}
-## Tests
+## Tests 
 ${data.testInstructions}
-## Questions 
-${data.questions}
-Please contact me using the following links:
-## Email
-[Email: ${data.email}](mailto:${data.email})
-## Github
-[GitHub](https://github.com/${data.Github})    
+## Questions
+Contact
+
+Github : ${data.Github} 
+Email: ${data.email}  
 `;
 }
 
